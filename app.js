@@ -12,4 +12,4 @@ app.use('/', (req, res)=>{
     res.status(404).send("<h1>PAGE NOT FOUND :( </h1>")
 })
 
-app.listen(3000)
+app.listen(3000);
